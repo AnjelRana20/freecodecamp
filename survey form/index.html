@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey | football</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="title">Football community survey</h1>
+        <p id="description"> Thank you for taking the time and improving the football community in india</p>
+        <form action="/" id="survey-form" >
+         <label for="name" id="name-label">Name <br>
+        <input type="text" placeholder="name" id="name" placeholder="Enter your name" required autofocus></label>
+        <label for="email" id="email-label"> Email  <br>
+        <input type="email" name="email" id="email" placeholder="Enter your email" required></Label>
+        <label for="age" id="number-label">Age<small>(optional)</small>  <br>
+        <input type="number" name="age" id="number" placeholder="Enter your age" min="12" max="60"></label>
+        <label for="dropdown">How do you describe yourself as football fan?  <br>
+         <select id="dropdown" name="reponse" >
+         <option disabled selected value>Select option</option>
+          <option value="low">Just started to know football</option>
+          <option value="moderate low">Like to play with friend as physical activity</option>
+          <option value="moderate">I like to watch matches and participate in football competition</option>
+          <option value="high moderate">I have a collection of jersey</option>    
+          <option value="high">Eat Sleep Football REPEAT</option>
+         </select></label>
+         <label for="recommend">  Will you recommend our community to someone?  <br>
+             <input type="radio" name="refer" id="recommend">Definitely!     <br>
+             <input type="radio" name="refer" id="recommend">I will after knowing about the service a bit more  <br>
+             <input type="radio" name="refer" id="recommend">may be later  
+         </label> 
+         <label for="team">Which is your favourite league?  <br>
+         <input type="checkbox" name="teams"  value="Premier league">Premier league  <br>
+         <input type="checkbox" name="teams"  value="Laliga">Laliga  <br>
+         <input type="checkbox" name="teams"  value="Ligue 1">Ligue 1  <br>
+         <input type="checkbox" name="teams"  value="Bundesliga A">Bundesliga A  <br>
+         <input type="checkbox" name="teams"  value="Premier Division A">Premier Division A  <br>
+         <input type="checkbox" name="teams"  value="ISL">ISL  <br>
+         <input type="checkbox" name="teams"  value="hero league(indian)">Hero league(indian) <br>
+         <input type="checkbox" name="teams" value="others"> Other
+        </label>
+
+         <label for="comment">Any comments or suggestion?  <br>
+         <textarea name="message" id="comment" cols="30" rows="10" placeholder="Enter your comments here.."></textarea></label>
+         <button id="sumbit" type="submit" >submit</button>
+        </form>
+
+    </div>
+    
+</body>
+</html>
